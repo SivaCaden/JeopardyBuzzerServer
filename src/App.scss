@@ -1,0 +1,26 @@
+$fontstack: Helevetica, sans-serif;
+
+$background: #abbf95;
+h1 {
+	font: $fontstack;
+	color: #5d9fd8;
+	font-size: 7em;
+	text-shadow: 6px 6px 6px #000;
+}
+
+body {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	align-items: center;
+	background-color: $background;
+}
+
+#inputform {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+button {
+	size: 100px;
+}
